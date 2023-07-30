@@ -54,7 +54,9 @@
     "@dcloudio/uni-mp-toutiao": "3.0.0-3080720230703001",
     "@dcloudio/uni-mp-weixin": "3.0.0-3080720230703001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-3080720230703001",
-    "axios": "^1.4.0",
+    "axios": "^0.27.2",
+    "axios-miniprogram-adapter": "^0.3.4",
+    "better-mock": "^0.3.6",
     "vue": "^3.2.45",
     "vue-i18n": "^9.1.9"
   },

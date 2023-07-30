@@ -16,8 +16,12 @@
         2.eslintrc-auto-import.json 配置文件是为了解决eslint与pretter 冲突的问题
         3.pretterrc.js文件是配置文件是配置代码风格文件
         4.eslintrc.js 代码规范配置，其中lint 指令是检查代码，lint：fix 是修复代码
+        5.utils/request    axios封装
+        6.utils/unirequest  原生网络请求封装
+        7.mock/mock   mock封装 （未进行细化封装）
 
 #### 5.uniapp+vue3+vite 写微信小程序缺陷
 
         1.底部导航Tabbar 图标无法编编译 导致项目报错，解决方法手动编译
         2.appid无法编译到微信模拟器中，这在做微信登录的时候一定要注意
+        3.axios 无法设置小程序的请求头， 详细情况请见 utils/request
