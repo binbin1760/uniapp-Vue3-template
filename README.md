@@ -17,9 +17,8 @@
         3.pretterrc.js文件是配置文件是配置代码风格文件
         4.eslintrc.js 代码规范配置，其中lint 指令是检查代码，lint：fix 是修复代码
         5.所有静态资源必须放在static文件夹下面，否者只有import后的静态资源才会被编译
-
+        
 #### 5.uniapp+vue3+vite 写微信小程序缺陷
-
         1.appid无法编译到微信模拟器中，这在做微信登录的时候一定要注意
         2.uniapp+axios 编写微信小程序问题：
                 1.小程序网络请求不支持axios
@@ -29,3 +28,7 @@
                 axios: "^0.26.0",
                 axios-miniprogram-adapter": "^0.3.5",
         3.生产环境和开发环境编译后的代码运行结果可能会有所区别，所以这里建议直接使用生成环境进行开发，只需要在.env里面修改VITE_BASE_URL来区分是开发还是上线
+        5.utils/request    axios封装
+        6.utils/unirequest  原生网络请求封装
+        7.mock/mock   mock封装 （未进行细化封装）
+
