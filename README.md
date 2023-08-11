@@ -26,7 +26,7 @@
                 3.高版本axios+适配器插件，不支持自定请求头。
                 解决方案，安装指定版本(该模版已经采用)：
                 axios: "^0.26.0",
-                axios-miniprogram-adapter": "^0.3.5",
+                axios-miniprogram-adapter": "^0.3.4",
         3.生产环境和开发环境编译后的代码运行结果可能会有所区别，所以这里建议直接使用生成环境进行开发，只需要在.env里面修改VITE_BASE_URL来区分是开发还是上线
         5.utils/request    axios封装
         6.utils/unirequest  原生网络请求封装
