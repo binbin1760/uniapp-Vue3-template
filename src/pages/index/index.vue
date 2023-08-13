@@ -1,13 +1,15 @@
 <template>
   <view class="content">
-    <view class="text-area">
-      <text class="title" @click="test()">{{ title }}</text>
+    <view>
+      <open-data type="userNickName"></open-data>
+      <open-data type="userAvatarUrl"></open-data>
     </view>
+    <GetUserinfo></GetUserinfo>
   </view>
 </template>
 
 <script setup lang="ts">
-import { test } from '@/api/index'
+import GetUserinfo from '@/components/GetUserinfo/GetUserinfo.vue'
 const title = ref('我的uniapp-vue3模板');
 </script>
 

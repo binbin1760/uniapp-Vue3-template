@@ -1,4 +1,4 @@
-import { uniRequest } from "@/untils/unirequest"
+import { unirequest } from "@/utils/unirequest"
 export function test() {
-    return uniRequest('/api/test', 'GET', '123')
+    return unirequest('/api/test', 'GET', '123')
 }
