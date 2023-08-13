@@ -1,11 +1,11 @@
-export function getUserInfo() {
+export function getUserToken() {
     return uni.getStorageSync('token')
 }
 
-export function saveUserInfo(data: string) {
+export function saveUserToken(data: string) {
     return uni.setStorageSync('token', data)
 }
 
-export function removeUserInfo() {
+export function removeUserToken() {
     return uni.removeStorageSync('token')
 }
