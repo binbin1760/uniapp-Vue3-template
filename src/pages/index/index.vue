@@ -1,16 +1,24 @@
 <template>
   <view class="content">
-    <view>
-      <open-data type="userNickName"></open-data>
-      <open-data type="userAvatarUrl"></open-data>
+    <view class="text-area">
+      <text class="title" @click="test()">{{ title }}</text>
+      <u-button type="success" text="测试"></u-button>
     </view>
     <GetUserinfo></GetUserinfo>
   </view>
 </template>
 
 <script setup lang="ts">
-import GetUserinfo from '@/components/GetUserinfo/GetUserinfo.vue'
+import { test } from '@/api/index';
+
 const title = ref('我的uniapp-vue3模板');
 </script>
 
-<style></style>
+<style lang="scss" scoped>
+.text-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+</style>
