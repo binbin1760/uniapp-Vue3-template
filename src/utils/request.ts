@@ -29,6 +29,7 @@ const http = axios.create({
   headers: {
     'Content-Type': 'application/json;charset:utf-8',
   },
+  baseURL: import.meta.env.VITE_BASE_URL
 });
 // 请求拦截
 http.interceptors.request.use((config: MyRequestType) => {

@@ -4,11 +4,13 @@
       <text class="title" @click="test()">{{ title }}</text>
       <u-button type="success" text="测试"></u-button>
     </view>
+    <GetUserinfo></GetUserinfo>
   </view>
 </template>
 
 <script setup lang="ts">
 import { test } from '@/api/index';
+
 const title = ref('我的uniapp-vue3模板');
 </script>
 

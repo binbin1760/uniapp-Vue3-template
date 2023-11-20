@@ -11,7 +11,7 @@ uni.addInterceptor('request', {
     }
 })
 
-export function uniRequest(url: string, method: any, data: any) {
+export function unirequest(url: string, method: any, data: any) {
     const headerConfig = {
         'Authorization': getUserInfo(),
         'Content-Type': 'application/json',
